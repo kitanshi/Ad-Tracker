@@ -145,6 +145,10 @@ useState: Manages local state for the campaigns and filter.
 useEffect: Fetches campaign data from the backend when the component mounts.
 Bonus Features
 Local Storage: Data persistence between page refreshes can be achieved by saving the campaign data to localStorage. This feature is optional and can be added for additional points.
+![image](https://github.com/user-attachments/assets/f8e6cc16-4d0c-4a81-a6ab-f130d3e9cbfd)
+
+![image](https://github.com/user-attachments/assets/518bdb21-73db-45e4-9c97-c0bd4dc45535)
+
 
 License
 This project is licensed under the MIT License.
