@@ -18,7 +18,7 @@ Deployment: AWS, Heroku, Vercel
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/ad-tracking-dashboard.git  
+git clone git@github.com:kitanshi/Ad-Tracker.git  
 cd ad-tracking-dashboard  
 npm install  # For frontend  
 pip install -r requirements.txt  # For backend  
