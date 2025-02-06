@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Dashboard from './components/Dashboard'; // Ensure correct path
-import CampaignForm from './components/CampaignForm'; // Ensure correct path
-import './styles.css'; // Importing the global CSS
+import Dashboard from './components/Dashboard'; // Make sure the path is correct
+import CampaignForm from './components/CampaignForm'; // Make sure the path is correct
 
 const App = () => {
   const [campaigns, setCampaigns] = useState([]);
@@ -14,7 +13,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div>
       <h1>Ad Tracking Dashboard</h1>
       <CampaignForm setCampaigns={setCampaigns} />
       <Dashboard campaigns={campaigns} />
